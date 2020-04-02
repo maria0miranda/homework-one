@@ -6,12 +6,11 @@
 
 .grid {
     display: grid;
-    grid-template-columns: 300px 550px 2fr;
+    grid-template-columns: 300px 280px 2fr;
     grid-gap: 20px;
 }
 
 .grid div:nth-child(2) {
-    background-image: url(/images/main.png);
     height: 500px;border-width: 6px;
     border-color: cyan;
     border-right-style: dashed;

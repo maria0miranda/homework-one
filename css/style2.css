@@ -6,13 +6,12 @@
 
 .grid {
     display: grid;
-    grid-template-columns: 300px 550px 2fr;
+    grid-template-columns: 300px 280px 2fr;
     grid-gap: 20px;
 }
 
 .grid div:nth-child(2) {
-    background-image: url(/images/main4.png);
-    height: 500px;
+    height: 280px;
     border-width: 6px;
     border-color: cyan;
     border-left-style: double;
@@ -42,13 +41,4 @@
 a:hover {
     background-color: white;
   color: #3b4a6b;
-}
-@media (max-width: 700px) {
-    .grid div:nth-child(2) {
-        grid-row: 2;
-        grid-column: 1 / -1;
-        width: 500px;
-        background-image: url(/images/minmax4.png);
-         height: 260px;
-    }
 }
