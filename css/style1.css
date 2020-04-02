@@ -13,7 +13,7 @@ body {
 }
 
 .grid div:nth-child(2) {
-    background-image: url(/images/main3.gif);
+    background-image: url(/images/main3.png);
 background-position: left;
     height: 500px;
 }
@@ -46,7 +46,7 @@ a:hover {
         grid-row: 2;
         grid-column: 1 / -1;
         width: 500px;
-        background-image: url(/images/minmax3.gif);
+        background-image: url(/images/minmax3.png);
          height: 260px;
     }
 }
