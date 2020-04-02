@@ -1,11 +1,8 @@
 * {
-    margin: 0 20px 0 20px;
+    margin: 40px 45px 0 35px;
     color: white;
-}
-body {
     background-color: black;
 }
-
 .grid {
     display: grid;
     grid-template-columns: 300px 550px 2fr;
@@ -16,17 +13,21 @@ body {
     background-image: url(/images/main3.png);
 background-position: left;
     height: 500px;
+    border-width: 6px;
+    border-color: cyan;
+    border-right-style: dotted;
+    border-top-style: solid;
 }
 .grid div:nth-child(1) {
     padding: 40px;
     padding-left: 100px;
     font-family: 'Archivo Narrow', sans-serif;
-    font-size: 20px;
+    font-size: 50px;
 }
 .grid div:nth-child(3) {
     padding: 40px;
     font-family: 'Archivo Narrow', sans-serif;
-    font-size: 20px;
+    font-size: 50px;
     font-style: italic;
 }
 .grid div:nth-child(4) {

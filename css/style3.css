@@ -1,5 +1,5 @@
 * {
-    margin: 0 20px 0 20px;
+    margin: 40px 45px 0 35px;
     color: white;
     background-color: black;
 }
@@ -13,17 +13,21 @@
 .grid div:nth-child(2) {
     background-image: url(/images/minmax2.png);
     height: 500px;
+    border-width: 6px;
+    border-color: cyan;
+    border-left-style: groove;
+    border-bottom-style: solid;
 }
 .grid div:nth-child(1) {
     padding: 40px;
     padding-left: 100px;
     font-family: 'Archivo Narrow', sans-serif;
-    font-size: 20px;
+    font-size: 50px;
 }
 .grid div:nth-child(3) {
     padding: 40px;
     font-family: 'Archivo Narrow', sans-serif;
-    font-size: 20px;
+    font-size: 50px;
     font-style: italic;
 }
 .grid div:nth-child(4) {

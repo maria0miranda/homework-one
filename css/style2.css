@@ -1,8 +1,6 @@
 * {
-    margin: 0 20px 0 20px;
-color: white;
-}
-body {
+    margin: 40px 45px 0 35px;
+    color: white;
     background-color: black;
 }
 
@@ -15,17 +13,21 @@ body {
 .grid div:nth-child(2) {
     background-image: url(/images/main4.png);
     height: 500px;
+    border-width: 6px;
+    border-color: cyan;
+    border-left-style: double;
+    border-top-style: solid;
 }
 .grid div:nth-child(1) {
     padding: 40px;
     padding-left: 100px;
     font-family: 'Archivo Narrow', sans-serif;
-    font-size: 20px;
+    font-size: 50px;
 }
 .grid div:nth-child(3) {
     padding: 40px;
     font-family: 'Archivo Narrow', sans-serif;
-    font-size: 20px;
+    font-size: 50px;
     font-style: italic;
 }
 .grid div:nth-child(4) {
