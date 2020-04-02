@@ -9,13 +9,19 @@
     grid-template-columns: 2fr 2fr 2fr;
     grid-gap: 20px;
 }
-
+.grid div:nth-child(odd) {
+  background-image: linear-gradient(to right, rgb(67, 198, 172), rgb(25, 22, 84));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; 
+  -moz-background-clip: text;
+  -moz-text-fill-color: transparent;
+}
 .grid div:nth-child(1) {
     padding: 40px;
     font-family: 'Archivo Narrow', sans-serif;
     font-size: 50px;
      border-width: 6px;
-    border-color: cyan;
+    border-color: #f6e1b8;
     border-top-style: dashed;
     border-left-style: solid;
 }
@@ -25,7 +31,7 @@
     font-size: 50px;
     font-style: italic;
      border-width: 6px;
-    border-color: cyan;
+    border-color: #f6e1b8;
     border-right-style: dashed;
     border-bottom-style: solid;
 }
@@ -39,5 +45,5 @@
 }
 a:hover {
     background-color: white;
-  color: #d3775d;
+  color: #b55c6c;
 }
